@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-takehome"
+version = "0.1.0"
+description = ""
+authors = ["Gowtham Nukala <gowthamnukala938@gmail.com>"]
+readme = "README.md"
+packages = [{include = "papers"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+requests = "^2.32.3"
+
+[tool.poetry.scripts]
+get-papers-list = "cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
