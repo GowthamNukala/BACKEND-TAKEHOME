@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "backend-takehome"
+name = "backend-takehome-gowtham"
 version = "0.1.0"
 description = ""
 authors = ["Gowtham Nukala <gowthamnukala938@gmail.com>"]
@@ -12,6 +12,9 @@ requests = "^2.32.3"
 
 [tool.poetry.scripts]
 get-papers-list = "cli:main"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^6.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
