@@ -1,0 +1,33 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Poetry lock file (optional — if you want to avoid conflicts)
+poetry.lock
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Test outputs
+test_output/
+
+# Pytest cache
+.pytest_cache/
+
+# CSV outputs (if you don't want to commit them)
+*.csv
